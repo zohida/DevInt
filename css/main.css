@@ -131,3 +131,124 @@ body{
     right: 10px;
     bottom: 19px;
 }
+
+.single-hero{
+    padding: 40px 0 0;
+    background-color: #F3F4F6;
+}
+
+.single-hero__title{
+    padding-left: 66px;
+}
+
+.question-text{
+    margin-top: 19px;
+    margin-bottom: 0;
+    padding-left: 36px;
+}
+
+.single-hero__text {
+    margin:0 ;
+    padding-left: 190px;
+    margin-bottom: 21px;
+}
+
+.single-hero__wrapper{
+    max-width: 706px;
+    width: 100%;
+    margin-top: 22px;
+    padding: 32px 78px;
+    background-color: white;
+}
+
+.single-hero__list{
+    padding-left: 200px;
+    padding-bottom: 81px;
+}
+
+.single-hero__box{
+    max-width: 369px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 81px;
+}
+
+.single-hero__link{
+    padding-left: 189px;
+    color: #9CA3AF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.single-hero__info{
+    margin: 0;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41.25px; /* 137.5% */
+}
+
+.single-hero__sublink{
+    text-align: center;
+    padding-left: 189px;
+    color: #6B7280;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.single-hero__sublist{
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.single-hero__subitem{
+    max-width: 240px;
+    width: 100%;
+}
+
+.single-hero__btn{
+    border-radius: 8px;
+    border: 1px solid #D1D5DB;
+    background: #FFF;
+    padding: 13px 53px 13px 17px;
+    gap: 4px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.single-hero__subitem:nth-child(3) .single-hero__btn  {
+    color: red;
+}
+ .single-hero__btn::before{
+    display: inline-block;
+    background-image: url("../images/icon1.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 16px;
+    content: "";
+}
+.single-hero__subitem:nth-child(2) .single-hero__btn::before  {
+    background-image: url("../images/icon2.svg");
+}
+
+.single-hero__subitem:nth-child(3) .single-hero__btn::before  {
+    background-image: url("../images/icon3.svg");
+}
+
+
+
